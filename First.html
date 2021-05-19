@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        p.ltr {
+            direction:ltr;
+        }
+        p.rtl {
+            direction: rtl;
+        }
+    </style>
+
+
+</head>
+<body>
+    <form action="https://www.google.com/" target="_blank" >
+        Name: <input type="text" pattern="[A-Za-z]{4}"required  name="uname"><br>
+
+        Password:<input type="text" name="uage" placeholder="enter your age" value="12"  ><br>
+        Gender: <input type="radio" name="gender" value="M" > Male 
+        <input checked type="radio" name="gender" value="F"> Female 
+        <input type="radio" name="gender" value="O"> Others<br>
+        Technologies:
+        <input type="checkbox" name="tech1" value="html"> HTML
+        <input type="checkbox" checked name="tech2" value="css">CSS
+        <input type="checkbox" name="tech3" value="js">Java Script <br>
+        
+        City lived in:
+
+        <input list="cities">
+        
+        <datalist id="cities">
+
+            <option value="Dhak">Dhaka</option>
+            <option  selected value="chit">Chitagong</option>
+            <option value="Khul">Khulna</option>
+            <option value="Dinaj">Dinajpur</option>
+
+        </datalist> <br>
+
+       
+        Your Favorite color:
+        <input type="color"> <br>
+
+        Your date of birth:
+        <input type="date"><br>
+
+        Birth Time:
+        <input type="time"><br>
+
+        Job applied details:
+        <input type="datetime-local"><br>
+
+       Your email id:
+       <input type="text"> <br>
+
+       Your phone number:
+       <input type="text"pattern="[0-9]{10}" value="+880"><br>
+
+       <input type="range" min="1" max="100"><br>
+
+       upload your resume:
+       <input type="file" multiple><br>
+
+       Enter your country code:
+       <input type="text" pattern="[0-9]{3,6}"><br>
+
+
+
+
+        Address:<textarea name="" id="" cols="30" rows="10" placeholder="enter your address"></textarea> <br>
+        <input type="button" value="click me">
+        <input  type="submit" value="submit form">
+        <input type="reset" value="reset here">
+
+    </form>
+
+        <p class="rtl">This is the first line of text</p>
+        <p class="ltr">Second line of text</p><hr>
+
+
+        <h1>My First Heading.</h1>
+
+        <p>My first paragraph.</p>
+
+        <a href="https://www.google.com/">Click here.</a>
+
+        <img src="Trash images/landscape-1802337_1920.jpg" alt="" height="150px" width="100px">
+
+        <p style="color:red">This is a red paragraph.</p>
+
+        <p title="I'm a tooltip">This is titled paragraph.</p>
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <p>This is paragraph.</p>
+        <p>This is another paragraph.</p>
+
+        <h1>This is heading 1.</h1>
+        <p>This is some text.</p>
+        <hr>
+        <h2>This is some other text.</h2>
+        <p>This is some other text.</p>
+        <hr>
+
+        <p>This is <br> a paragraph <br> with line breaks.</p>
+
+</body>
+</html>
